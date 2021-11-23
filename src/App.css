@@ -35,6 +35,12 @@ h1 {
   opacity: 0.4;
 }
 
+.todolist-container {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
 .todo-form {
   margin-bottom: 32px;
 }
@@ -102,13 +108,13 @@ h1 {
   background: linear-gradient(
     90deg,
     rgb(29, 131, 172) 0%,
-    rgb(24, 117, 172) 100%
+    rgb(22, 110, 161) 100%
   );
+  background: rgb(22, 110, 161);
 
   padding: 16px;
   border-radius: 5px;
   width: 90%;
-  opacity:0.9;
 }
 
 .todo-row:hover{
@@ -138,7 +144,6 @@ h1 {
     rgb(14, 109, 177) 0%,
     rgb(37, 98, 179) 100%
   );
-  opacity:0.2;
 }
 
 .icons {
